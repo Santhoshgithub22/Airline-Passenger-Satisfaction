@@ -1,0 +1,4 @@
+[ 2023-07-01 18:37:40,543 ] 14 root - INFO - Prediction Pipeline Started
+[ 2023-07-01 18:37:40,549 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-01 18:37:40,553 ] 187 werkzeug - INFO -  * Debugger PIN: 145-392-051
+[ 2023-07-01 18:38:10,370 ] 187 werkzeug - INFO -  * Detected change in 'c:\\users\\msant\\passenger_satisfaction_prediction\\app.py', reloading

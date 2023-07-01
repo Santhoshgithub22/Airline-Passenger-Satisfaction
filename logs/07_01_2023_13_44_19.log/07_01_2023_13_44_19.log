@@ -1,0 +1,950 @@
+[ 2023-07-01 13:44:20,611 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[ 2023-07-01 13:44:20,611 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-01 13:44:31,265 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:44:31] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:44:31,287 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:44:31] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:44:31,520 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:44:31] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:44:31,973 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:44:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:46:34,386 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:46:34] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:46:34,408 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:46:34] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:46:34,409 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:46:34] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:46:55,199 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:46:55] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:46:55,222 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:46:55] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:46:55,222 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:46:55] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:49:04,580 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:49:04] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:49:04,606 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:49:04] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:49:04,608 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:49:04] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:49:08,067 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:49:08] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:49:08,235 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:49:08] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:49:08,236 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:49:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:50:35,059 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:50:35] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:50:35,083 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:50:35] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:50:35,085 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:50:35] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:51:00,276 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:51:00,298 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:51:00,301 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:00] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:51:01,840 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:51:01,865 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:51:01,865 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:51:36,158 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:36] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:51:36,190 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:36] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:51:36,192 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:36] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:51:37,332 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:37] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:51:37,353 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:37] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:51:37,356 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:51:37,930 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:37] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:51:37,958 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:51:37,963 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:37] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:51:38,895 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:38] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:51:38,914 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:51:38,917 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:51:38] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:54:39,040 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:39] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:54:39,080 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:39] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:54:39,082 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:39] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:54:40,009 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:40] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:54:40,032 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:40] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:54:40,032 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:54:40,498 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:40] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:54:40,513 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:40] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:54:40,517 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:54:40,816 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:40] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:54:40,843 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:40] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:54:40,843 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:54:58,293 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:58] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:54:58,312 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:58] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:54:58,312 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:58] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:54:59,476 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:59] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:54:59,497 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:59] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:54:59,497 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:54:59,619 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:59] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:54:59,635 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:54:59,635 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:59] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:54:59,778 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:59] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:54:59,783 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:59] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:54:59,783 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:54:59,943 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:59] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:54:59,960 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:59] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:54:59,961 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:54:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:00,111 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:00,129 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:00,129 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:00,576 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:00,784 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:00,785 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:04,327 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:04] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:04,345 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:04] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:04,345 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:04,572 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:04] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:04,596 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:04] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:04,596 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:04,792 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:04] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:04,809 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:04,810 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:04] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:04,975 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:04] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:04,994 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:04] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:04,996 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:05,140 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:05,160 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:05,161 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:05,298 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:05,315 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:05,316 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:05,457 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:05,475 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:05,476 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:05,610 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:05,626 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:05,628 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:05,791 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:05,809 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:05,810 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:06,107 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:06] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:06,124 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:06] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:06,126 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:06,306 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:06] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:06,326 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:06,327 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:06] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:07,320 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:07] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:07,339 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:07,342 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:07] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:07,968 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:07] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:07,989 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:07] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:07,990 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:08,412 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:08] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:08,619 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:08] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:08,620 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:09,030 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:09,236 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:09] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:09,238 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:23,936 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:23] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:23,952 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:23] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:23,952 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:24,339 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:24,359 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:24] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:24,360 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:24,739 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:24,755 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:24,765 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:24] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:25,121 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:25] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:25,139 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:25] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:25,139 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:25,388 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:25] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:25,404 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:25] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:25,418 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:25,649 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:25] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:25,669 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:25,672 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:25] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:25,773 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:25] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:25,826 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:25] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:25,826 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:50,177 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:50] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:50,196 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:50] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:50,196 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:50] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:55:50,309 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:50] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:50,328 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:50,328 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:50] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:50,634 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:50] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:50,650 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:50] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:50,650 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:50,813 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:50] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:50,830 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:50] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:50,842 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:51,838 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:51] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:51,888 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:51] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:51,888 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:52,341 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:52] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:52,623 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:52,628 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:52] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:54,457 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:54] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:54,481 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:55:54,482 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:54] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:54,667 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:54] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:55:54,686 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:54] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:55:54,687 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:55:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:56:32,210 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:56:32] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:56:32,228 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:56:32] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:56:32,229 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:56:32] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:56:33,641 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:56:33] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:56:33,658 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:56:33] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:56:33,659 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:56:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:56:33,770 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:56:33] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:56:33,785 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:56:33] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:56:33,786 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:56:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:56:34,061 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:56:34] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:56:34,076 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:56:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:56:34,079 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:56:34] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:57:41,155 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:57:41] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:57:41,186 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:57:41] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:57:41,192 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:57:41] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:58:14,534 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:58:14] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:58:14,553 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:58:14] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:58:14,553 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:58:14] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 13:58:33,979 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:58:33] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 13:59:30,175 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:59:30] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 13:59:31,750 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:59:31] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 13:59:37,228 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:59:37] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:59:37,253 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:59:37] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:59:37,255 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:59:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 13:59:41,831 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:59:41] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 14:00:40,967 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:00:40] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 14:00:42,057 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:00:42] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 14:00:42,374 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:00:42] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 14:00:47,220 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:00:47] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 14:00:51,004 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:00:51] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 14:00:51,026 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:00:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 14:00:51,028 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:00:51] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 14:01:27,643 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:01:27] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 14:01:27,680 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:01:27] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 14:01:27,680 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:01:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 14:01:31,798 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:01:31] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 14:02:09,437 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:02:09] "[33mGET /predict_datapoint HTTP/1.1[0m" 404 -
+[ 2023-07-01 14:09:28,448 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:09:28] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 14:09:28,569 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:09:28] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 14:09:28,570 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:09:28] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 14:09:34,549 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:09:34] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 14:10:18,943 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 20, in predict_datapoint
+    data=CustomData(
+TypeError: __init__() missing 1 required positional argument: 'satisfaction'
+[ 2023-07-01 14:10:18,972 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:10:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 14:15:57,711 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:15:57] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 14:15:58,536 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:15:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 14:15:58,538 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:15:58] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 14:16:03,919 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:16:03] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 14:16:39,250 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 20, in predict_datapoint
+    data=CustomData(
+TypeError: __init__() missing 1 required positional argument: 'satisfaction'
+[ 2023-07-01 14:16:39,259 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:16:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 14:19:48,315 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 20, in predict_datapoint
+    data=CustomData(
+TypeError: __init__() missing 1 required positional argument: 'satisfaction'
+[ 2023-07-01 14:19:48,318 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:19:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 14:19:52,593 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:19:52] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 14:19:52,623 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:19:52] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 14:19:52,624 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:19:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 14:19:59,863 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:19:59] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 14:20:02,765 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 21, in predict_datapoint
+    Age = float(request.form.get('Age')),
+ValueError: could not convert string to float: ''
+[ 2023-07-01 14:20:02,768 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:20:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 14:20:37,809 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 20, in predict_datapoint
+    data=CustomData(
+TypeError: __init__() missing 1 required positional argument: 'satisfaction'
+[ 2023-07-01 14:20:37,810 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:20:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 14:25:16,579 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:25:16] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 14:25:16,744 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:25:16] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 14:25:16,745 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:25:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 14:25:17,416 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:25:17] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 14:25:17,496 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:25:17] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 14:25:17,497 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:25:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 14:25:25,471 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:25:25] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 14:25:28,093 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 21, in predict_datapoint
+    Age = float(request.form.get('Age')),
+ValueError: could not convert string to float: ''
+[ 2023-07-01 14:25:28,094 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:25:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 16:11:42,602 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:11:42] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 16:42:15,745 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:42:15] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:42:15,906 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:42:15] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:42:15,908 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:42:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 16:42:20,521 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:42:20] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 16:43:30,665 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:43:30] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 16:43:35,123 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 21, in predict_datapoint
+    Age = float(request.form.get('Age')),
+ValueError: could not convert string to float: ''
+[ 2023-07-01 16:43:35,127 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:43:35] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 16:45:44,742 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:45:44] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:45:44,957 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:45:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 16:45:44,957 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:45:44] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:45:48,673 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:45:48] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 16:45:52,128 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 21, in predict_datapoint
+    Age = float(request.form.get('Age')),
+ValueError: could not convert string to float: ''
+[ 2023-07-01 16:45:52,130 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:45:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 16:46:41,397 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 21, in predict_datapoint
+    Age = float(request.form.get('Age')),
+ValueError: could not convert string to float: ''
+[ 2023-07-01 16:46:41,400 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:46:41] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 16:46:50,399 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:46:50] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:46:50,419 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:46:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 16:46:50,419 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:46:50] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:46:55,072 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:46:55] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 16:49:34,057 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:49:34] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:49:34,197 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:49:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 16:49:34,200 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:49:34] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:49:40,789 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:49:40] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 16:49:47,067 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 22, in predict_datapoint
+    Flight_Distance = float(request.form.get('Flight_Distance')),
+ValueError: could not convert string to float: ''
+[ 2023-07-01 16:49:47,075 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:49:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 16:51:02,515 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:02] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 16:51:07,889 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:07] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:51:08,089 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:08] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:51:08,089 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:08] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 16:51:10,782 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:10] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:51:10,798 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:10] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:51:10,798 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 16:51:11,560 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:11] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:51:11,577 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:11] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:51:11,577 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 16:51:12,174 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:12] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:51:12,189 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:12] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:51:12,189 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 16:51:12,404 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:12] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:51:12,420 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 16:51:12,421 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:12] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:51:12,797 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:12] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:51:12,814 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:12] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:51:12,816 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 16:51:13,179 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:13] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:51:13,349 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 16:51:13,353 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:51:13] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:54:15,515 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:54:15] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 16:54:20,412 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:54:20] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:54:20,434 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:54:20] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:54:20,436 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:54:20] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 16:54:22,635 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:54:22] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:54:22,652 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:54:22] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:54:22,653 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:54:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 16:55:09,092 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:55:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:55:09,234 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:55:09] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:55:09,234 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:55:09] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 16:55:43,934 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:55:43] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:55:43,952 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:55:43] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:55:43,952 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:55:43] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 16:56:09,617 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:56:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:56:09,635 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:56:09] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:56:09,635 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:56:09] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 16:56:38,328 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:56:38] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 16:56:38,466 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:56:38] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 16:56:38,471 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:56:38] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 16:56:51,404 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:56:51] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 16:56:54,780 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 22, in predict_datapoint
+    Flight_Distance = float(request.form.get('Flight_Distance')),
+ValueError: could not convert string to float: ''
+[ 2023-07-01 16:56:54,780 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 16:56:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 17:00:48,554 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:00:48] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:00:48,575 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:00:48] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:00:48,578 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:00:48] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:01:11,841 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:01:11] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:01:11,857 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:01:11] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:01:11,857 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:01:11] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:01:11,884 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:01:11] "[33mGET /static/css/‘C:UsersmsantPassenger_Satisfaction_Predictionstatic%0Css®ro.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:01:22,270 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:01:22] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:01:22,287 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:01:22] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:01:22,289 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:01:22] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:02:19,072 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:19] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:02:19,092 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:19] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:02:19,092 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:19] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:02:19,105 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:19] "[33mGET /static/css/‘C:UsersmsantPassenger_Satisfaction_Predictionstatic%0Css®ro.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:02:21,187 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:21] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:02:21,201 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:21] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:02:21,201 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:02:21,321 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:21] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:02:21,337 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:21] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:02:21,337 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:02:21,553 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:21] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:02:21,571 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:21] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:02:21,573 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:02:22,462 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:22] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:02:22,480 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:22] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:02:22,480 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:02:22,642 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:22] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:02:22,659 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:22] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:02:22,659 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:02:23,007 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:23] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:02:23,185 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:23] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:02:23,185 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:02:23,285 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:23] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:02:23,343 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:23] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:02:23,343 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:02:23,788 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:23] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:02:23,812 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:23] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:02:23,812 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:02:24,020 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:02:24,037 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:24] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:02:24,037 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:02:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:03:12,315 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:12] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:03:12,333 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:12] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:03:12,338 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:12] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:03:12,347 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:12] "[33mGET /static/css/‘C:UsersmsantPassenger_Satisfaction_Predictionstatic%0Css®ro.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:03:13,605 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:13] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:03:13,629 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:13] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:03:13,629 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:03:13,752 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:13] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:03:13,768 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:13] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:03:13,768 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:03:13,963 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:13] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:03:13,971 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:03:13,971 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:13] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:03:49,798 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:49] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:03:49,815 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:49] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:03:49,815 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:03:49] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:07:19,855 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:07:19] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 17:07:22,698 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:07:22] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:07:22,914 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:07:22] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:07:22,914 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:07:22] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:07:25,232 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:07:25] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:07:25,249 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:07:25] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:07:25,250 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:07:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:11:03,294 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:03] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:11:03,323 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:03] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:11:03,323 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:03] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:11:04,053 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:11:04,069 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:11:04,069 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:11:04,183 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:11:04,199 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:11:04,203 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:11:04,303 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:11:04,317 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:11:04,317 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:11:04,425 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:11:04,445 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:11:04,445 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:11:04,459 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[33mGET /static/css/‘C:UsersmsantPassenger_Satisfaction_Predictionstatic%0CssImages®ro.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:11:04,554 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:11:04,573 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:11:04,574 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:11:04,684 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:11:04,698 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:11:04,699 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:11:04,915 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:11:04,933 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:11:04,933 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:11:04] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:15:22,407 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:22] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:15:22,421 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:22] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:15:22,423 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:22] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:15:23,638 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:23] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:15:23,654 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:23] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:15:23,655 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:15:23,777 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:23] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:15:23,793 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:23] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:15:23,793 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:15:23,801 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:23] "[33mGET /static/css/‘/Images/Aero.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:15:23,914 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:23] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:15:23,933 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:15:23,933 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:23] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:15:24,026 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:15:24,042 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:15:24,042 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:15:24,155 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:15:24,171 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:15:24,171 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:15:24,275 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:15:24,299 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:15:24,299 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:15:24,406 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:15:24,430 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:15:24,430 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:15:24,535 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:15:24,551 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:15:24,559 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:15:24,754 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:15:24,771 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:15:24,771 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:15:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:17:50,384 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:50] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:17:50,400 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:50] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:17:50,404 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:50] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:17:50,416 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:50] "[33mGET /static/css/‘/Images/Aero.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:17:51,851 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:51] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:17:51,869 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:17:51,870 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:51] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:17:52,102 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:17:52,118 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:17:52,118 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:17:52,240 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:17:52,265 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:17:52,265 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:17:52,543 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:17:52,565 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:17:52,569 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:17:52,692 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:17:52,710 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:17:52,710 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:17:52,904 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:17:52,923 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:17:52,923 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:17:59,286 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:59] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:17:59,308 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:59] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:17:59,308 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:17:59] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:18:00,122 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:00,140 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:00,140 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:18:00,243 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:00,264 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:18:00,265 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:00,372 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:00,391 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:00,391 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:18:00,506 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:00,526 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:00,528 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:18:00,635 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:00,655 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:00,658 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:18:00,821 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:00,844 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:00,844 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:18:01,050 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:01,075 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:01,075 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:18:01,443 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:01,461 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:01,461 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:18:44,635 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:44] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:44,651 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:44] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:44,651 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:44] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:18:48,606 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:48] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:48,622 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:18:48,626 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:48] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:49,301 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:49] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:49,320 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:18:49,321 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:49] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:49,330 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:49] "[33mGET /static/css/‘/Images/Aero.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:49,618 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:49] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:49,636 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:18:49,697 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:49] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:49,947 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:49] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:49,964 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:49] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:49,964 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:18:50,310 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:50] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:18:50,335 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:50] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:18:50,335 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:18:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:00,152 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:00,169 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:00,169 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:01,142 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:01,158 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:01,158 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:01,359 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:01,381 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:01,381 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:01,531 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:01,558 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:01,564 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:01,807 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:01,821 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:01,821 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:05,088 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:05] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:05,110 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:05] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:05,110 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:05,748 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:05] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:05,766 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:05,770 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:05] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:06,004 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:06,024 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:06,024 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:06,118 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:06,130 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:06,130 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:06,260 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:06,270 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:06,278 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:06,493 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:06,515 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:06,517 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:06,664 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:06,684 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:06,684 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:06,835 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:06,851 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:06,851 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:07,055 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:07] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:07,068 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:07] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:07,068 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:19:58,418 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:58] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:19:58,554 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:58] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:19:58,554 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:19:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:21:00,734 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:21:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:21:00,751 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:21:00] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:21:00,751 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:21:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:21:23,516 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:21:23] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:21:23,537 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:21:23] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:21:23,540 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:21:23] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:21:58,787 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:21:58] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:21:58,804 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:21:58] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:21:58,804 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:21:58] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:21:58,835 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:21:58] "[33mGET /static/css/‘/Images/Aero.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:22:28,713 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:28] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:22:28,730 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:28] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:22:28,733 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:28] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:22:50,292 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:50] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:22:50,309 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:50] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:22:50,309 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:50] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:22:51,279 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:51] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:22:51,295 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:51] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:22:51,297 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:22:51,310 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:51] "[33mGET /static/css/‘/Images/Aero.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:22:51,503 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:51] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:22:51,526 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:51] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:22:51,530 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:22:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:23:09,970 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:23:09,988 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:09] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:23:09,988 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:09] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:23:22,513 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:22] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:23:22,528 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:22] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:23:22,528 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:22] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:23:23,621 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:23] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:23:23,637 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:23] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:23:23,637 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:23:23,649 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:23] "[33mGET /static/css/‘/Images/Aero.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:23:34,905 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:34] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:23:34,922 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:34] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:23:34,924 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:23:34] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:25:22,704 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:25:22] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:25:22,724 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:25:22] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:25:22,724 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:25:22] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:26:57,580 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:57] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:26:57,595 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:57] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:26:57,595 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:57] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:26:58,529 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:26:58,546 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:26:58,546 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:26:58,555 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "[33mGET /static/css/‘/Images/Aero.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:26:58,648 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:26:58,664 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:26:58,664 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:26:58,769 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:26:58,786 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:26:58,786 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:26:58,981 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:26:58,998 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:26:58,998 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:26:58] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:29:46,759 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:29:46] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:29:46,773 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:29:46] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:29:46,773 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:29:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:29:47,544 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:29:47] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:29:47,559 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:29:47] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:29:47,559 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:29:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:29:47,664 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:29:47] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:29:47,676 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:29:47] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:29:47,676 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:29:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:29:47,893 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:29:47] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:29:47,910 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:29:47] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:29:47,910 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:29:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:30:09,074 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:30:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:30:09,085 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:30:09] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:30:09,085 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:30:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:30:09,916 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:30:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:30:09,924 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:30:09] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:30:09,934 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:30:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:30:10,048 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:30:10] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:30:10,062 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:30:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:30:10,062 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:30:10] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:30:10,265 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:30:10] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:30:10,284 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:30:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:30:10,288 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:30:10] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:32:42,099 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:32:42] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:32:42,121 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:32:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:32:42,121 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:32:42] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:33:11,873 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:11] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:33:11,885 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:11] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:33:11,889 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:33:12,745 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:12] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:33:12,761 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:33:12,761 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:12] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:33:12,837 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:12] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:33:12,860 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:33:12,860 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:12] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:33:12,981 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:12] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:33:12,990 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:12] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:33:12,990 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:33:13,107 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:33:13,122 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:33:13,122 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:33:13,226 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:33:13,255 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:33:13,255 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:33:13,357 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:33:13,371 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:33:13,371 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:33:13,504 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:33:13,511 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:33:13,511 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:33:13,624 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:33:13,640 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:33:13,640 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:33:13,758 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:33:13,777 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:33:13,777 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:33:13,969 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:13] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:33:14,000 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:33:14,000 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:33:14] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:08,423 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:08] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:08,448 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:08] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:08,448 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:08] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:35:09,373 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:09,389 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:09,389 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:35:09,477 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:09,495 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:09,498 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:35:09,628 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:09,644 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:35:09,644 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:09,652 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "[33mGET /static/css/‘/Images/Aero.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:09,792 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:09,806 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:35:09,806 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:09,954 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:09,972 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:09,972 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:35:10,122 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:10] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:10,132 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:10] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:10,132 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:35:10,340 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:10] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:10,357 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:10] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:10,357 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:35:25,032 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:25] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:25,047 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:25] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:25,047 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:25] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:35:25,059 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:25] "[33mGET /static/css/‘./Images/Aero.jpg’ HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:39,603 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:39] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:39,620 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:39] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:35:39,626 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:39] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:45,343 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:45] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:45,357 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:45] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:35:45,357 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:45] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:46,024 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:46,041 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:46,041 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:35:46,140 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:46,156 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:35:46,156 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:46,255 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:46,272 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:35:46,272 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:46,384 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:46,401 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:46,402 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:35:46,598 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:35:46,613 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:35:46,615 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:35:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:00,008 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:00,027 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:00,027 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:00,654 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:00,672 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:00,672 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:00,775 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:00,789 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:00,789 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:00,898 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:00] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:00,913 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:00] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:00,913 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:01,032 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:01,059 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:01,059 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:01,073 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[33mGET /Images/Aero.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:01,178 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:01,208 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:01,208 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:01,346 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:01,365 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:01,365 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:01,500 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:01,521 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:01,521 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:01,639 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:01,656 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:01,656 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:01,775 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:01,790 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:01,790 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:01,910 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:01,935 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:01,937 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:02,028 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:02,048 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:02,048 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:02,163 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:02,187 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:02,187 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:02,310 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:02,323 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:02,323 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:02,458 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:02,474 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:02,486 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:02,677 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:02,696 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:02,701 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:02] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:45,212 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:45] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:45,238 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:45] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:45,241 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:45,938 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:45] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:45,949 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:45] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:45,949 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:46,080 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:46] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:46,096 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:46] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:46,096 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:46,294 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:46] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:36:46,312 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:46] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:36:46,312 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:36:56,794 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:56] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 17:36:59,070 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 21, in predict_datapoint
+    Age = float(request.form.get('Age')),
+ValueError: could not convert string to float: ''
+[ 2023-07-01 17:36:59,070 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:36:59] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 17:38:10,405 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 21, in predict_datapoint
+    Age = float(request.form.get('Age')),
+ValueError: could not convert string to float: ''
+[ 2023-07-01 17:38:10,405 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:38:10] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 17:38:21,289 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:38:21] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:38:21,309 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:38:21] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:38:21,309 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:38:21] "GET /static/css/main.css HTTP/1.1" 200 -
+[ 2023-07-01 17:38:21,322 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:38:21] "[33mGET /Images/Aero.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:38:24,952 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:38:24] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 17:38:26,833 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 21, in predict_datapoint
+    Age = float(request.form.get('Age')),
+ValueError: could not convert string to float: ''
+[ 2023-07-01 17:38:26,833 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:38:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 17:41:12,961 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:41:12] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:41:12,962 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:41:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:41:12,987 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:41:12] "[33mGET /Images/Aero.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:41:14,361 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:41:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:43:31,207 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:43:31] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:43:31,210 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:43:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 17:43:31,237 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:43:31] "[33mGET /Images/Aero.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:45:54,292 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:45:54] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 17:45:54,317 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:45:54] "[33mGET /main.js HTTP/1.1[0m" 404 -
+[ 2023-07-01 17:45:54,317 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 17:45:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

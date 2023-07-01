@@ -1,0 +1,132 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+
+    <div class="form-group">
+        <label for="Age">Age:</label>
+        <input type="Age" id="Age" name="Age" placeholder="Enter Age value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Flight_Distance">Flight_Distance:</label>
+        <input type="text" id="Flight_Distance" name="Flight_Distance" placeholder="Enter Flight_Distance value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Inflight_wifi_service">Inflight_wifi_service:</label>
+        <input type="text" id="Inflight_wifi_service" name="Inflight_wifi_service" placeholder="Enter Inflight_wifi_service value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="Departure_or_Arrival_time_convenient">Departure_or_Arrival_time_convenient:</label>
+        <input type="text" id="Departure_or_Arrival_time_convenient" name="Departure_or_Arrival_time_convenient" placeholder="Enter Departure_or_Arrival_time_convenient value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Ease_of_Online_booking">Ease_of_Online_booking:</label>
+        <input type="Ease_of_Online_booking" id="Ease_of_Online_booking" name="Ease_of_Online_booking" placeholder="Enter Ease_of_Online_booking value (float)">
+    </div>
+
+    <div class="form-group">  
+        <label for="Gate_location">Gate_location:</label>
+        <input type="text" id="Gate_location" name="Gate_location" placeholder="Enter Gate_location value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="Food_and_drink">Food_and_drink:</label>
+        <input type="text" id="Food_and_drink" name="Food_and_drink" placeholder="Enter Food_and_drink value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Online_boarding">Online_boarding:</label>
+        <input type="text" id="Online_boarding" name="Online_boarding" placeholder="Enter Online_boarding value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Seat_comfort">Seat_comfort:</label>
+        <input type="text" id="Seat_comfort" name="Seat_comfort" placeholder="Enter Seat_comfort value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Inflight_entertainment">Inflight_entertainment:</label>
+        <input type="Inflight_entertainment" id="Inflight_entertainment" name="Inflight_entertainment" placeholder="Enter Inflight_entertainment value (float)">
+    </div>
+
+    <div class="form-group">  
+        <label for="On_board_service">On_board_service:</label>
+        <input type="text" id="On_board_service" name="On_board_service" placeholder="Enter On_board_service value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="Leg_room_service">Leg_room_service:</label>
+        <input type="text" id="Leg_room_service" name="Leg_room_service" placeholder="Enter Leg_room_service value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Baggage_handling">Baggage_handling:</label>
+        <input type="text" id="Baggage_handling" name="Baggage_handling" placeholder="Enter Baggage_handling value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Checkin_service">Checkin_service:</label>
+        <input type="text" id="Checkin_service" name="Checkin_service" placeholder="Enter Checkin_service value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="Inflight_service">Inflight_service:</label>
+        <input type="text" id="Inflight_service" name="Inflight_service" placeholder="Enter Inflight_service value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Cleanliness">Cleanliness:</label>
+        <input type="Cleanliness" id="Cleanliness" name="Cleanliness" placeholder="Enter Cleanliness value (float)">
+    </div>
+
+    <div class="form-group">  
+        <label for="Departure_Delay_in_Minutes">Departure_Delay_in_Minutes:</label>
+        <input type="text" id="Departure_Delay_in_Minutes" name="Departure_Delay_in_Minutes" placeholder="Enter Departure_Delay_in_Minutes value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="Arrival_Delay_in_Minutes">Arrival_Delay_in_Minutes:</label>
+        <input type="text" id="Arrival_Delay_in_Minutes" name="Arrival_Delay_in_Minutes" placeholder="Enter Arrival_Delay_in_Minutes value (float)">
+    </div>
+  
+<div class="form-group">
+  <label for="Gender">Gender:</label>
+  <select id="Gender" name="Gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+  </select>
+</div>
+  
+<div class="form-group">
+  <label for="Customer_Type">Customer_Type:</label>
+  <select id="Customer_Type" name="Customer_Type">
+    <option value="Loyal Customer">Loyal Customer</option>
+    <option value="disloyal Customer">disloyal Customer</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label for="Type_of_Travel">Type_of_Travel:</label>
+  <select id="Type_of_Travel" name="Type_of_Travel">
+    <option value="Personal Travel">Personal Travel</option>
+    <option value="Business travel">Business travel</option>
+  </select>
+</div>
+
+<div class="form-group">
+    <label for="Class">Class:</label>
+    <select id="Class" name="Class">
+      <option value="Business">Business</option>
+      <option value="Eco Plus">Eco Plus</option>
+      <option value="Eco">Eco</option>
+    </select>
+  </div>
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

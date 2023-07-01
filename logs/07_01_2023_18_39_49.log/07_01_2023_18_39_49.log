@@ -1,0 +1,144 @@
+[ 2023-07-01 18:39:50,181 ] 14 root - INFO - Prediction Pipeline Started
+[ 2023-07-01 18:39:50,196 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[ 2023-07-01 18:39:50,197 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-01 18:40:16,434 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 18:40:16] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 18:40:16,595 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 18:40:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-07-01 18:40:16,706 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 18:40:16] "[33mGET /Images/Aero.jpg HTTP/1.1[0m" 404 -
+[ 2023-07-01 18:41:12,726 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 18:41:12] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 18:41:15,074 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 21, in predict_datapoint
+    Age = float(request.form.get('Age')),
+ValueError: could not convert string to float: ''
+[ 2023-07-01 18:41:15,077 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 18:41:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 18:42:22,000 ] 112 root - INFO - Dataframe Gathered
+[ 2023-07-01 18:42:22,298 ] 31 root - INFO - Exception occured in prediction
+[ 2023-07-01 18:42:22,299 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\src\pipeline\prediction_pipeline.py", line 24, in predict
+    data_scaled=preprocessor.transform(features)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\utils\_set_output.py", line 140, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\compose\_column_transformer.py", line 800, in transform
+    Xs = self._fit_transform(
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\compose\_column_transformer.py", line 658, in _fit_transform
+    return Parallel(n_jobs=self.n_jobs)(
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\utils\parallel.py", line 63, in __call__
+    return super().__call__(iterable_with_config)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\joblib\parallel.py", line 1855, in __call__
+    return output if self.return_generator else list(output)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\joblib\parallel.py", line 1781, in _get_sequential_output
+    for func, args, kwargs in iterable:
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\utils\parallel.py", line 59, in <genexpr>
+    iterable_with_config = (
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\compose\_column_transformer.py", line 661, in <genexpr>
+    X=_safe_indexing(X, column, axis=1),
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\utils\__init__.py", line 354, in _safe_indexing
+    return _pandas_indexing(X, indices, indices_dtype, axis=axis)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\utils\__init__.py", line 200, in _pandas_indexing
+    return indexer[:, key] if axis else indexer[key]
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexing.py", line 1097, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexing.py", line 1289, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexing.py", line 955, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexing.py", line 1332, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexing.py", line 1272, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexing.py", line 1462, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexes\base.py", line 5877, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexes\base.py", line 5941, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['Customer Type'] not in index"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 47, in predict_datapoint
+    pred=predict_pipeline.predict(final_new_data)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\src\pipeline\prediction_pipeline.py", line 32, in predict
+    raise CustomException(e,sys)
+src.exception.CustomException: Error occured in python script name [C:\Users\msant\Passenger_Satisfaction_Prediction\src\pipeline\prediction_pipeline.py] line number [24] error message ["['Customer Type'] not in index"]
+[ 2023-07-01 18:42:22,310 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 18:42:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 18:52:57,750 ] 112 root - INFO - Dataframe Gathered
+[ 2023-07-01 18:52:57,852 ] 31 root - INFO - Exception occured in prediction
+[ 2023-07-01 18:52:57,854 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\src\pipeline\prediction_pipeline.py", line 24, in predict
+    data_scaled=preprocessor.transform(features)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\utils\_set_output.py", line 140, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\compose\_column_transformer.py", line 800, in transform
+    Xs = self._fit_transform(
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\compose\_column_transformer.py", line 658, in _fit_transform
+    return Parallel(n_jobs=self.n_jobs)(
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\utils\parallel.py", line 63, in __call__
+    return super().__call__(iterable_with_config)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\joblib\parallel.py", line 1855, in __call__
+    return output if self.return_generator else list(output)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\joblib\parallel.py", line 1781, in _get_sequential_output
+    for func, args, kwargs in iterable:
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\utils\parallel.py", line 59, in <genexpr>
+    iterable_with_config = (
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\compose\_column_transformer.py", line 661, in <genexpr>
+    X=_safe_indexing(X, column, axis=1),
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\utils\__init__.py", line 354, in _safe_indexing
+    return _pandas_indexing(X, indices, indices_dtype, axis=axis)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\sklearn\utils\__init__.py", line 200, in _pandas_indexing
+    return indexer[:, key] if axis else indexer[key]
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexing.py", line 1097, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexing.py", line 1289, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexing.py", line 955, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexing.py", line 1332, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexing.py", line 1272, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexing.py", line 1462, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexes\base.py", line 5877, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\pandas\core\indexes\base.py", line 5941, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['Customer Type'] not in index"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 47, in predict_datapoint
+    pred=predict_pipeline.predict(final_new_data)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\src\pipeline\prediction_pipeline.py", line 32, in predict
+    raise CustomException(e,sys)
+src.exception.CustomException: Error occured in python script name [C:\Users\msant\Passenger_Satisfaction_Prediction\src\pipeline\prediction_pipeline.py] line number [24] error message ["['Customer Type'] not in index"]
+[ 2023-07-01 18:52:57,857 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 18:52:57] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -

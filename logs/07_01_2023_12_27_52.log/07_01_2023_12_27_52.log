@@ -1,0 +1,85 @@
+[ 2023-07-01 12:27:53,775 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-07-01 12:27:53,775 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-01 12:28:09,154 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:28:09] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 12:28:09,841 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:28:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-01 12:28:14,884 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:28:14] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 12:32:15,112 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 20, in predict_datapoint
+    data=CustomData(
+TypeError: __init__() missing 1 required positional argument: 'satisfaction'
+[ 2023-07-01 12:32:15,115 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:32:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 12:35:41,777 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 20, in predict_datapoint
+    data=CustomData(
+TypeError: __init__() missing 1 required positional argument: 'satisfaction'
+[ 2023-07-01 12:35:41,777 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:35:41] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 12:37:45,277 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:37:45] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 12:43:01,711 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:43:01] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 12:43:08,321 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:43:08] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 12:43:50,128 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:43:50] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 12:43:59,327 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:43:59] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 12:45:26,608 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:45:26] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 12:46:56,313 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:46:56] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 12:47:10,418 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:47:10] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 12:47:49,991 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 20, in predict_datapoint
+    data=CustomData(
+TypeError: __init__() missing 1 required positional argument: 'satisfaction'
+[ 2023-07-01 12:47:49,991 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:47:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 12:49:06,968 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:49:06] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 12:49:11,316 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:49:11] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 12:49:16,530 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\msant\Passenger_Satisfaction_Prediction\app.py", line 21, in predict_datapoint
+    Age = float(request.form.get('Age')),
+ValueError: could not convert string to float: ''
+[ 2023-07-01 12:49:16,531 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 12:49:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-07-01 13:11:06,138 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:11:06] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:11:10,082 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:11:10] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 13:11:11,217 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:11:11] "[33mGET /predictr HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:11:13,390 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:11:13] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 13:13:46,464 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:13:46] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:18:27,758 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:18:27] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:20:33,787 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:20:33] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:25:33,450 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:25:33] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:25:33,598 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:25:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-01 13:32:12,013 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:32:12] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:39:10,932 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:39:10] "GET / HTTP/1.1" 200 -
+[ 2023-07-01 13:39:20,170 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 13:39:20] "GET /predict HTTP/1.1" 200 -
+[ 2023-07-01 14:08:35,830 ] 187 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2023 14:08:35] "GET / HTTP/1.1" 200 -

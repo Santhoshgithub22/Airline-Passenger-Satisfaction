@@ -1,0 +1,23 @@
+
+body{
+
+    background-image:url('/Images/Aero.jpg');
+
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+    background-color:powderblue;
+
+    padding-right: 20em;
+    
+    padding-left: 11em;
+    
+    Times: serif;
+    
+    font-family: Courier New, “Lucida Console”;
+    
+    color: rgb(2, 52, 75);
+}
