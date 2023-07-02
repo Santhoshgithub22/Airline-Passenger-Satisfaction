@@ -30,15 +30,15 @@ class DataTransformation:
 
             ## Separating Numerical features
 
-            numerical_features = ['Age', 'Flight Distance', 'Inflight wifi service','Departure/Arrival time convenient',
-                                            'Ease of Online booking','Gate location', 'Food and drink', 'Online boarding',
-                                            'Seat comfort', 'Inflight entertainment', 'On-board service', 'Leg room service', 
-                                            'Baggage handling', 'Checkin service', 'Inflight service', 'Cleanliness',
-                                            'Departure Delay in Minutes', 'Arrival Delay in Minutes']
+            numerical_features = ['Age', 'Flight_Distance', 'Inflight_wifi_service','Departure_or_Arrival_time_convenient',
+                                            'Ease_of_Online_booking','Gate_location', 'Food_and_drink', 'Online_boarding',
+                                            'Seat_comfort', 'Inflight_entertainment', 'On_board_service', 'Leg_room_service', 
+                                            'Baggage_handling', 'Checkin_service', 'Inflight_service', 'Cleanliness',
+                                            'Departure_Delay_in_Minutes', 'Arrival_Delay_in_Minutes']
                         
-            ordinal_features=["Customer Type", "Class"]
+            ordinal_features=["Customer_Type", "Class"]
 
-            onehot_features = ["Gender", "Type of Travel"]
+            onehot_features = ["Gender", "Type_of_Travel"]
 
             # Define the transformers
             numeric_transformer = StandardScaler()
@@ -70,14 +70,31 @@ class DataTransformation:
             train_data = pd.read_csv(train_path)
             test_data = pd.read_csv(test_path)
 
+            
+            logging.info("Replacing Space in Columns Name's in training set")
+
+            train_data.columns = [i.replace(" ", "_") for i in train_data.columns]
+            train_data.columns = [i.replace("/", "_or_") for i in train_data.columns]
+            train_data.columns = [i.replace("-", "_")for i in train_data.columns]
+
+            logging.info("Replaced training set Columns Name's Space is completed")
+
+            logging.info("Replacing Space in Columns Name's in testing set")
+
+            test_data.columns = [i.replace(" ", "_") for i in test_data.columns]
+            test_data.columns = [i.replace("/", "_or_") for i in test_data.columns]
+            test_data.columns = [i.replace("-", "_")for i in test_data.columns]
+
+            logging.info("Replaced testing set Columns Name's Space is completed")
+
             logging.info("Replacing null values")
-            train_data["Arrival Delay in Minutes"] = train_data["Arrival Delay in Minutes"].fillna(train_data["Arrival Delay in Minutes"].median())
-            test_data["Arrival Delay in Minutes"] = test_data["Arrival Delay in Minutes"].fillna(test_data["Arrival Delay in Minutes"].median())
+            train_data["Arrival_Delay_in_Minutes"] = train_data["Arrival_Delay_in_Minutes"].fillna(train_data["Arrival_Delay_in_Minutes"].median())
+            test_data["Arrival_Delay_in_Minutes"] = test_data["Arrival_Delay_in_Minutes"].fillna(test_data["Arrival_Delay_in_Minutes"].median())
             logging.info("Succesfully Null values replaced")
 
             logging.info("Dropping Unnamed Column")
-            train_data = train_data.drop(["Unnamed: 0"], axis=1)
-            test_data = test_data.drop(["Unnamed: 0"], axis=1)
+            train_data = train_data.drop(["Unnamed:_0"], axis=1)
+            test_data = test_data.drop(["Unnamed:_0"], axis=1)
             logging.info("Succesfully Unnamed column dropped")
 
             logging.info("Mapping into numerical values for dependent columns")

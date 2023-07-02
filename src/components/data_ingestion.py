@@ -33,12 +33,23 @@ class DataIngestion:
             df = pd.read_csv(os.path.join("notebooks/data/airline.csv"))
             logging.info("Dataset read as pandas dataframe")
 
+            logging.info("Replacing Space in Columns Name's")
+
+            df.columns = [i.replace(" ", "_") for i in df.columns]
+            df.columns = [i.replace("/", "_or_") for i in df.columns]
+            df.columns = [i.replace("-", "_")for i in df.columns]
+
+            logging.info("Replaced Space in Columns Name's is completed")
+
             os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path), exist_ok=True)
             df.to_csv(self.ingestion_config.raw_data_path, index=False)
 
-            logging.info("Train and Test Split")
+            logging.info("Train and Test Split Started")
 
             train_set, test_set = train_test_split(df, test_size=0.30, random_state=42)
+
+            logging.info(f"Train Dataframe Sample's: \n{train_set.sample(2).to_string()}")
+            logging.info(f"Test Dataframe Sample's: \n{test_set.sample(2).to_string()}")
 
             train_set.to_csv(self.ingestion_config.train_data_path, index=False, header=True)
             test_set.to_csv(self.ingestion_config.test_data_path, index=False, header=True)

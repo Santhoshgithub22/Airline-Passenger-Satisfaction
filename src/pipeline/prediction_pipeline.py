@@ -111,6 +111,7 @@ class CustomData:
             df = pd.DataFrame(custom_data_input_dict)
             logging.info('Dataframe Gathered')
             return df
+        
         except Exception as e:
             logging.info('Exception Occured in prediction pipeline')
             raise CustomException(e,sys)
