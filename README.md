@@ -24,7 +24,7 @@ Airline passenger satisfaction is a critical factor for the aviation industry. U
 
 ## Dataset
 
-The dataset used for this analysis is sourced from [source_dataset_link](insert_link_here). It contains a collection of features such as flight distance, inflight services, cleanliness, departure/arrival time satisfaction, and more. The dataset was preprocessed to handle missing values and encode categorical variables.
+The dataset used for this analysis is sourced from [source_dataset_link](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction). It contains a collection of features such as flight distance, inflight services, cleanliness, departure/arrival time satisfaction, and more. The dataset was preprocessed to handle missing values and encode categorical variables.
 
 ## Methodology
 
