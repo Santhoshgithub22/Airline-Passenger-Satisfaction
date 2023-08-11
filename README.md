@@ -1,7 +1,6 @@
 # Airline Passenger Satisfaction Analysis
 
-![Airplane](![Uploading image.png…]()
-)
+![Airplane](https://images.pexels.com/photos/236070/pexels-photo-236070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
 
 This project aims to analyze and understand airline passenger satisfaction based on a given dataset. The dataset includes various features related to airline services and customer feedback, which we'll explore to gain insights into factors influencing passenger satisfaction.
 
