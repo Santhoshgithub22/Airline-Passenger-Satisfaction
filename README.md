@@ -65,7 +65,7 @@ This project demonstrates the importance of analyzing passenger satisfaction in 
 To replicate or build upon this project:
 
 1. Clone this repository.
-2. Download the dataset from [source_dataset_link](insert_link_here) and place it in the `data` directory.
+2. Download the dataset from [source_dataset_link](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction) and place it in the `data` directory.
 3. Use Jupyter Notebook or your preferred environment to run the analysis scripts.
 
 ## Contributing
