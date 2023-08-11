@@ -1,6 +1,6 @@
 # Airline Passenger Satisfaction Analysis
 
-![Airplane](airplane_image.jpg)
+![Airplane](https://www.pexels.com/photo/white-united-airlines-plane-1089306/)
 
 This project aims to analyze and understand airline passenger satisfaction based on a given dataset. The dataset includes various features related to airline services and customer feedback, which we'll explore to gain insights into factors influencing passenger satisfaction.
 
